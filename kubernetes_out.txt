@@ -1,0 +1,22 @@
+NAMESPACE     NAME                               READY   STATUS    RESTARTS   AGE
+default       predictions                        1/1     Running   0          6m
+default       udacity-p4                         1/1     Running   0          15m
+kube-system   coredns-66bff467f8-8zs29           1/1     Running   0          20m
+kube-system   coredns-66bff467f8-p4ptf           1/1     Running   0          20m
+kube-system   etcd-minikube                      1/1     Running   0          20m
+kube-system   kube-apiserver-minikube            1/1     Running   0          20m
+kube-system   kube-controller-manager-minikube   1/1     Running   0          20m
+kube-system   kube-proxy-4vn9d                   1/1     Running   0          20m
+kube-system   kube-scheduler-minikube            1/1     Running   0          20m
+kube-system   storage-provisioner                1/1     Running   0          20m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
